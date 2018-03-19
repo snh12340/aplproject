@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8ac9f25-b0bf-46f2-a242-724488ddb26b" name="Default" comment="" />
+    <list default="true" id="e8ac9f25-b0bf-46f2-a242-724488ddb26b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/templates/root.html" afterPath="$PROJECT_DIR$/templates/root.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,16 +12,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/APlproject$APL.coverage" NAME="APL Coverage Results" MODIFIED="1521474961125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/aplproject$APL.coverage" NAME="APL Coverage Results" MODIFIED="1521444677210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/aplproject$aplproject.coverage" NAME="aplproject Coverage Results" MODIFIED="1521260862527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+            <state relative-caret-position="445">
+              <caret line="97" column="1" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
               <folding>
                 <element signature="e#418#517#0" expanded="false" />
                 <element signature="e#525#760#0" expanded="false" />
@@ -30,6 +33,16 @@
                 <element signature="e#1840#1990#0" expanded="false" />
                 <element signature="e#2004#2077#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="root.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/root.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,9 +83,9 @@
         <option value="$PROJECT_DIR$/aplproject.py" />
         <option value="$PROJECT_DIR$/templates/ax_semantic.html" />
         <option value="$PROJECT_DIR$/templates/op_semantic.html" />
-        <option value="$PROJECT_DIR$/templates/root.html" />
         <option value="$PROJECT_DIR$/templates/about.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/root.html" />
       </list>
     </option>
   </component>
@@ -109,23 +122,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="aplproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aplproject" type="462c0819:PsiDirectoryNode" />
+              <item name="APlproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APlproject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aplproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aplproject" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aplproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aplproject" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aplproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aplproject" type="462c0819:PsiDirectoryNode" />
+              <item name="APlproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APlproject" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -140,6 +142,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -212,9 +215,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23567921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33224222" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2456964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23567921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33224222" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2535211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -662,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/root.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -679,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        <state relative-caret-position="445">
+          <caret line="97" column="1" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
           <folding>
             <element signature="e#418#517#0" expanded="false" />
             <element signature="e#525#760#0" expanded="false" />
@@ -691,6 +687,14 @@
             <element signature="e#1840#1990#0" expanded="false" />
             <element signature="e#2004#2077#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/root.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
