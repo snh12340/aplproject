@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+    <title>{{ current_page }}</title>
+</head>
+<body>
+<!--<header>APL Project</header>-->
+    <header class="header">
+        <h1>Analysis Of Programming Languages</h1>
+    </header>
+
+    <form class="leftPane">
+        <div class="leftPaneItem">
+            <a href="{{ url_for("opsemantic") }}">OPERATIONAL SEMANTICS</a>
+        </div>
+        <br>
+
+        <div class="leftPaneItem">
+            <a href="{{ url_for('desemantic') }}">DENOTATIONAL SEMANTICS</a>
+        </div>
+
+        <br>
+
+        <div class="leftPaneItem">
+            <a href="{{ url_for('axsemantic') }}">AXIOMATIC SEMANTICS</a>
+        </div>
+
+        <br>
+
+        <div class="leftPaneItem">
+            <a href="{{ url_for('lambda_calc') }}">LAMBDA CALCULUS</a>
+        </div>
+
+        <br>
+        <div class="leftPaneItem">
+            <a href="{{ url_for('about') }}">ABOUT</a>
+        </div>
+        <input type="button" value="test" title="Test" class="leftPaneItem" onmouseover="{{ url_for("opsemantic") }}">
+
+    </form>
+
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
